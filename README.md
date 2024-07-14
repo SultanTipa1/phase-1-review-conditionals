@@ -452,18 +452,7 @@ order and we want to create a variable containing the appropriate ingredients.
 Using an `if...else if` construction, that might look like this:
 
 ```js
-const order = 'cheeseburger';
 
-let ingredients;
-if (order === 'cheeseburger') {
-    ingredients = 'bun, burger, cheese, lettuce, tomato, onion';
-} else if (order === 'hamburger') {
-    ingredients = 'bun, burger, lettuce, tomato, onion';
-} else if (order === 'malted') {
-    ingredients = 'milk, ice cream, malted milk powder';
-} else {
-    console.log("Sorry, that's not on the menu right now.");
-}
 ```
 
 As we can see, there's quite a bit of repetition here: we always test `order` and
